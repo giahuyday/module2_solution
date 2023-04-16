@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    margin: 20px;
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    grid-row: 1;
+    background-color: gray;
+}
+h1{
+    margin-left: 50%;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div > b {
+    position: inherit;
+    width: 30%;
+    height: auto;
+    display:inline-block;
+    text-align: center;
+    margin-left: 70%;
+}
+
+div > p {
+    justify-content: center;
+    margin: 10px;
+}
+.chicken > b{
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.beef > b{
+    border: 1px solid black;
+    background-color: darkred;
+    color: white;
+}
+
+.sushi > b{
+    border: 1px solid black;
+    background-color: wheat;
+}
